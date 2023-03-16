@@ -1,0 +1,23 @@
+C:\Users\mhhv.skp\source\repos\cookie klicker\bin\Debug\net7.0-windows\cookie klicker.exe
+C:\Users\mhhv.skp\source\repos\cookie klicker\bin\Debug\net7.0-windows\cookie klicker.deps.json
+C:\Users\mhhv.skp\source\repos\cookie klicker\bin\Debug\net7.0-windows\cookie klicker.runtimeconfig.json
+C:\Users\mhhv.skp\source\repos\cookie klicker\bin\Debug\net7.0-windows\cookie klicker.dll
+C:\Users\mhhv.skp\source\repos\cookie klicker\bin\Debug\net7.0-windows\cookie klicker.pdb
+C:\Users\mhhv.skp\source\repos\cookie klicker\bin\Debug\net7.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\mhhv.skp\source\repos\cookie klicker\obj\Debug\net7.0-windows\cookie klicker.csproj.AssemblyReference.cache
+C:\Users\mhhv.skp\source\repos\cookie klicker\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\mhhv.skp\source\repos\cookie klicker\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\mhhv.skp\source\repos\cookie klicker\obj\Debug\net7.0-windows\cookie klicker_MarkupCompile.cache
+C:\Users\mhhv.skp\source\repos\cookie klicker\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\mhhv.skp\source\repos\cookie klicker\obj\Debug\net7.0-windows\cookie klicker.g.resources
+C:\Users\mhhv.skp\source\repos\cookie klicker\obj\Debug\net7.0-windows\cookie klicker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mhhv.skp\source\repos\cookie klicker\obj\Debug\net7.0-windows\cookie klicker.AssemblyInfoInputs.cache
+C:\Users\mhhv.skp\source\repos\cookie klicker\obj\Debug\net7.0-windows\cookie klicker.AssemblyInfo.cs
+C:\Users\mhhv.skp\source\repos\cookie klicker\obj\Debug\net7.0-windows\cookie klicker.csproj.CoreCompileInputs.cache
+C:\Users\mhhv.skp\source\repos\cookie klicker\obj\Debug\net7.0-windows\cookie klicker.csproj.CopyComplete
+C:\Users\mhhv.skp\source\repos\cookie klicker\obj\Debug\net7.0-windows\cookie klicker.dll
+C:\Users\mhhv.skp\source\repos\cookie klicker\obj\Debug\net7.0-windows\refint\cookie klicker.dll
+C:\Users\mhhv.skp\source\repos\cookie klicker\obj\Debug\net7.0-windows\cookie klicker.pdb
+C:\Users\mhhv.skp\source\repos\cookie klicker\obj\Debug\net7.0-windows\cookie klicker.genruntimeconfig.cache
+C:\Users\mhhv.skp\source\repos\cookie klicker\obj\Debug\net7.0-windows\ref\cookie klicker.dll
+C:\Users\mhhv.skp\source\repos\cookie klicker\obj\Debug\net7.0-windows\cookie klicker_MarkupCompile.lref

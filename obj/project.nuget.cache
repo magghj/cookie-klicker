@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wv8c1eKama7DVPxESKUho5EE5SKU8jXjne25r9wFlWcyDTUaNQLKVR7yKxT93lBJfMZq75NE3tyqaYBWoUlSIg==",
+  "dgSpecHash": "PUMn9PYC06K/+jaPTwChx6yhFT02T36X5mknhjUi6LEaDZlZyn0l3bTkN5Key2bzHM/YTHq66Hd5ZPUqnkY57g==",
   "success": true,
   "projectFilePath": "C:\\Users\\mhhv.skp\\source\\repos\\cookie klicker\\cookie klicker.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mhhv.skp\\.nuget\\packages\\communitytoolkit.mvvm\\8.1.0\\communitytoolkit.mvvm.8.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -5,8 +5,106 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:cookie_klicker"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Cookie Klikker" Height="370" Width="320">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
+        <!--textblock-->
+        <TextBox x:Name="ckResult"
+               Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5"
+               IsReadOnly="True"
+               Margin="5, 15, 5, 25"
+               FontSize="32"
+               HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Center"
+               BorderThickness="0"
+               Background="SaddleBrown"
+                 >0</TextBox>
+
+        <TextBox
+               Grid.Row="0" Grid.RowSpan="2" Grid.Column="1"
+               TextWrapping="Wrap"
+               IsReadOnly="True"
+               Margin="0, 160, 0, 55"
+               FontSize="14"
+               HorizontalContentAlignment="Right"
+               BorderThickness="0"
+                 >Upgrade + cost:</TextBox>
+        <TextBox x:Name="plusUpgradeC"
+               Grid.Row="1" Grid.Column="1"
+               IsReadOnly="True"
+               Margin="0, 30, 0, 28"
+               FontSize="14"
+               HorizontalContentAlignment="Right"
+               BorderThickness="0"
+                 >100</TextBox>
+
+        <TextBox
+               Grid.Row="0" Grid.RowSpan="2" Grid.Column="3"
+               TextWrapping="Wrap"
+               IsReadOnly="True"
+               Margin="0, 160, 0, 55"
+               FontSize="14"
+               HorizontalContentAlignment="Left"
+               BorderThickness="0"
+                 >Upgrade x cost:</TextBox>
+        <TextBox x:Name="timesUpgradeC"
+               Grid.Row="1" Grid.Column="3"
+               IsReadOnly="True"
+               Margin="0, 30, 0, 28"
+               FontSize="14"
+               HorizontalContentAlignment="Left"
+               BorderThickness="0"
+                 >100</TextBox>
+        
+        <TextBox
+               Grid.Row="1" Grid.Column="2"
+               IsReadOnly="True"
+               Margin="20, 56, 20, 5"
+               FontSize="20"
+               HorizontalContentAlignment="Center"
+               BorderThickness="0"
+                 >*</TextBox>
+        <TextBox
+               Grid.Row="2" Grid.Column="2"
+               IsReadOnly="True"
+               Margin="20, 0, 20, 65"
+               FontSize="20"
+               HorizontalContentAlignment="Center"
+               BorderThickness="0"
+                 >=</TextBox>
+        
+        <!--upgrade buttons-->
+        <Button x:Name="plus"
+                Grid.Row="1" Grid.Column="1" 
+                Margin="5, 55, 0, 5"
+                FontSize="19" Click="plus_Click"
+                BorderThickness="0"
+                >1</Button>
+        <Button x:Name="times"
+                Grid.Row="1" Grid.Column="3" 
+                Margin="0, 55, 5, 5"
+                FontSize="17" Click="times_Click"
+                BorderThickness="0"
+                >1</Button>
+
+        <!--klick button-->
+        <Button x:Name="add"
+                Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3"
+                Margin="0, 25, 0, 5"
+                FontSize="27" Click="add_Click"
+                BorderThickness="0"
+                >1</Button>
     </Grid>
 </Window>

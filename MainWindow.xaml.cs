@@ -1,28 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
 
 namespace cookie_klicker
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private Game game = new Game();
+
+        private void add_Click(object sender, RoutedEventArgs e)
         {
-            InitializeComponent();
+            game.click();
+            ckResult.Text = game.cookieCount().ToString();
+            add.Content = game.cookieAdder().ToString();
+        }
+
+        private void plus_Click(object sender, RoutedEventArgs e)
+        {
+            game.plusClickUpgrade();
+            ckResult.Text = game.cookieCount().ToString();
+            plus.Content = game.plusAmound().ToString();
+            add.Content = game.cookieAdder().ToString();
+            plusUpgradeC.Text = game.costOfPlus().ToString();
+        }
+
+        private void times_Click(object sender, RoutedEventArgs e)
+        {
+            game.timesClickUpgrade();
+            ckResult.Text = game.cookieCount().ToString();
+            times.Content = game.timesAmound().ToString();
+            add.Content = game.cookieAdder().ToString();
+            timesUpgradeC.Text = game.costOfTimes().ToString();
         }
     }
 }
